@@ -1,7 +1,7 @@
 # Anomaly-Detection
 This project uses different methods for anomaly detection of a timeseries. 
 
-The data used has two variables used in adwords for online marketing: CPC (Cost Per Click) and CPM (Cost Per Thousand). Both of them are a timeseries with matching timestamps and there are three sets of files. One of them has no anomalities while the other two do.
+The data has two variables used in digital online marketing: CPC (Cost Per Click) and CPM (Cost Per Thousand). Both of them are a timeseries with matching timestamps and there are three sets of files. One of them has no anomalities while the other two do.
 
 The notebook goes through different ideas in how to tackle this problem:
 - Supervized Learning: Since there are no lables, I generated them by clustering the data with DBSCAN. Later, I trained a RandomForest model with them.
